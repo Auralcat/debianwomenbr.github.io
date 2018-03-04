@@ -68,6 +68,10 @@ code {
     margin: auto;
 }
 
+.col-organizadoras {
+    padding: 4px;               /* Join panels */*/
+}
+
 .panel-heading {
     text-align: center;
 }
