@@ -57,3 +57,26 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+/* Organizadoras' panel styles
+   Choose one later
+-------------------------------------------------- */
+
+/* Definition list style */
+.panel {
+    width: 100%;
+    margin: auto;
+}
+
+.col-organizadoras {
+    padding: 4px;               /* Join panels */*/
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+.panel-body {
+    text-align: justify;
+    display: inline-block;
+}
