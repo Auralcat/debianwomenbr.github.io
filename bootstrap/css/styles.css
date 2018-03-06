@@ -76,7 +76,8 @@ code {
     text-align: center;
 }
 
-.panel-body {
+.mini-bio {
     display: inline-block;
     height: 150px;
+    text-align: justify;
 }
