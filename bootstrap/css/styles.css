@@ -77,6 +77,6 @@ code {
 }
 
 .panel-body {
-    text-align: justify;
     display: inline-block;
+    height: 150px;
 }

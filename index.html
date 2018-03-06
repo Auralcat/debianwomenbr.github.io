@@ -83,25 +83,16 @@
                 </div>
             </div>
             <div class="row text-center" id="inscricoes">
-              <a href="https://encontros.matehackers.org/pt/projects/60-encontro-debian-women"> <h1>Inscrições</h1> </a>
-              <p>Para fazer a inscrição, entre neste link</p>
-              <hr class="half-danger">
+                <a href="https://encontros.matehackers.org/pt/projects/60-encontro-debian-women">
+                    <h1>Inscrições</h1>
+                </a>
+                <p>Para fazer a inscrição, entre neste link</p>
+                <hr class="half-danger">
             </div>
             <div class="row" id="schedule">
                 <h2 class="text-center">Agenda</h2>
                 <hr class="half-danger">
                 <p class="lead text-center">Em breve!</p>
-                <!--
-          <div class="col-sm-12 col-md-6 col-md-offset-3">
-            <ul class="list-group">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-        </div>
-        !-->
             </div>
             <div class="row" id="faq">
                 <h2 class="text-center">Perguntas Frequentes</h2>
@@ -146,84 +137,73 @@
                 <hr class="half-danger">
                 <p class="lead">Todas as pessoas participantes do encontro Debian Women devem conhecer e concordar com nosso <a href="coc-pt-br.html">código de conduta</a>.</p>
             </div>
-            <!-- Ideia original -->
-            <!-- <div class="row text-center" id="organizadoras"> -->
-            <!--     <h2>Organizadoras</h2> -->
-            <!--     <hr class="half-danger"> -->
-            <!--     <ul class="list-unstyled"> -->
-            <!--       <li> -->
-            <!--           <a href="https://twitter.com/KiraOliveira5">Kira Oliveira</a> -->
-            <!--           <p class="lead"> -->
-            <!--             Dessert pudding lemon drops sugar plum wafer wafer jelly beans. Jelly beans topping cake. Tootsie roll icing muffin pudding marshmallow chocolate bar icing gummi bears liquorice. -->
-            <!--           </p> -->
-            <!--       </li> -->
-            <!--       <li><a href="https://twitter.com/miriamretka">Miriam Retka</a></li> -->
-            <!--       <li><a href="https://twitter.com/rsip22">Renata D'Ávila</a></li> -->
-            <!--     </ul> -->
-            <!-- </div> -->
-            <!-- Listas de definição -->
             <div class="row text-center" id="organizadoras">
-              <h2>Organizadoras</h2>
-              <hr class="half-danger">
-              <dl class="dl-horizontal">
-                <div class="panel">
-                  <dt><a href="https://twitter.com/KiraOliveira5">Kira Oliveira</a></dt>
-                  <dd>Cursando Ciência da Computação. Analista de suporte a sistemas há vários anos. Curte muito games e fomentar as comunidades locais de mulheres em tecnologia.</dd>
+                <h2>Organizadoras</h2>
+                <hr class="half-danger" />
+                <div class="col-md-4 col-organizadoras">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><a href="https://twitter.com/KiraOliveira5">Kira Oliveira</a></div>
+                        <div class="panel-body">Cursando Ciência da Computação. Analista de suporte a sistemas há vários anos. Adora games, frontend e fomentar as comunidades locais de mulheres em tecnologia.</div>
+                    </div>
                 </div>
-                <div class="panel">
-                  <dt><a href="https://twitter.com/miriamretka">Miriam Retka</a></dt>
-                  <dd>Licenciada em Física pela UEPG. Usuária avançada de GNU/Linux há 2 anos. Desenvolvedora web freelancer. Ministrou workshops de introdução ao Python e ao editor Vim em 2017.</dd>
+                <div class="col-md-4 col-organizadoras">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a href="https://twitter.com/miriamretka">Miriam Retka</a>
+                        </div>
+                        <div class="panel-body">Licenciada em Física pela UEPG. Usuária avançada de GNU/Linux há 2 anos. Desenvolvedora web freelancer. Ministrou workshops de introdução ao Python e ao editor Vim em 2017.</div>
+                    </div>
                 </div>
-                <div class="panel">
-                  <dt><a href="https://twitter.com/rsip22">Renata D'Ávila</a></dt>
-                  <dd>Professora da rede pública, Técnica em Informática para Internet. Estagiária Outreachy com o projeto Debian. Participante do hackerspace Mate Hackers, em Porto Alegre. Contribui para organizações como PyLadies Porto Alegre e Django Girls.</dd>
+                <div class="col-md-4 col-organizadoras">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><a href="https://twitter.com/rsip22">Renata D'Ávila</a></div>
+                        <div class="panel-body">Professora da rede pública, Técnica em Informática para Internet. Estagiária Outreachy com o projeto Debian. Participante do hackerspace Mate Hackers, em Porto Alegre. Contribui para organizações como PyLadies Porto Alegre e Django Girls.</div>
+                    </div>
                 </div>
-              </dl>
+                <div class="row text-center" id="contact">
+                    <div class="col-xs-12 col-sm-10 col-md-4 col-sm-offset-1 col-md-offset-4">
+                        <h2>Contato</h2>
+                        <hr class="half-danger">
+                        <h6 class="text-center">Preencha o formulário e entre em contato conosco!</h6>
+                        <form action="https://formspree.io/chiara.pieta@gmail.com" id="contact_form" role="form" method="POST" autocomplete="on">
+                            <div class="form-group">
+                                <label for="name">Nome:</label>
+                                <input type="text" name="Nome" class="form-control" id="name" placeholder="Ana Clara">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" name="_replyto" class="form-control" id="email" placeholder="ana@seuprovedor.com.br">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Mensagem:</label>
+                                <textarea class="form-control" name="Mensagem" rows="3" id="comment" placeholder="Escreva aqui sua mensagem"></textarea>
+                            </div>
+                            <input type="hidden" name="_subject" value="Encontro Debian Women" />
+                            <input type="hidden" name="_format" value="plain" />
+                            <input type="text" name="_gotcha" style="display:none" />
+                            <input type="hidden" name="_language" value="pt" />
+                            <div class="text-center">
+                                <button type="submit" value="Send" class="btn btn-danger text-uppercase">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="row text-center" id="contact">
-                <div class="col-xs-12 col-sm-10 col-md-4 col-sm-offset-1 col-md-offset-4">
-                    <h2>Contato</h2>
-                    <hr class="half-danger">
-                    <h6 class="text-center">Preencha o formulário e entre em contato conosco!</h6>
-                    <form action="https://formspree.io/chiara.pieta@gmail.com" id="contact_form" role="form" method="POST" autocomplete="on">
-                        <div class="form-group">
-                            <label for="name">Nome:</label>
-                            <input type="text" name="Nome" class="form-control" id="name" placeholder="Ana Clara">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">E-mail:</label>
-                            <input type="email" name="_replyto" class="form-control" id="email" placeholder="ana@seuprovedor.com.br">
-                        </div>
-                        <div class="form-group">
-                            <label for="comment">Mensagem:</label>
-                            <textarea class="form-control" name="Mensagem" rows="3" id="comment" placeholder="Escreva aqui sua mensagem"></textarea>
-                        </div>
-                        <input type="hidden" name="_subject" value="Encontro Debian Women" />
-                        <input type="hidden" name="_format" value="plain" />
-                        <input type="text" name="_gotcha" style="display:none" />
-                        <input type="hidden" name="_language" value="pt" />
-                        <div class="text-center">
-                            <button type="submit" value="Send" class="btn btn-danger text-uppercase">Enviar</button>
-                        </div>
-                    </form>
+
+            <footer class="footer">
+                <div class="container">
+                    <p class="text-muted text-center">Site criado por <a href="https://rsip22.github.io/portfolio/">Renata D'Avila</a>. Todas as pessoas participantes do encontro Debian Women devem conhecer e concordar com nosso <a href="coc-pt-br.html">código de conduta</a>.</p>
                 </div>
-            </div>
-        </div>
-
-        <footer class="footer">
-            <div class="container">
-                <p class="text-muted text-center">Site criado por <a href="https://rsip22.github.io/portfolio/">Renata D'Avila</a>. Todas as pessoas participantes do encontro Debian Women devem conhecer e concordar com nosso <a href="coc-pt-br.html">código de conduta</a>.</p>
-            </div>
-        </footer>
+            </footer>
 
 
-        <!-- Bootstrap core JavaScript
+            <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+            <script src="bootstrap/js/bootstrap.min.js"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
 </html>
